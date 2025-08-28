@@ -85,21 +85,3 @@ Output: processed/Merged_PlayStore_Reviews.csv
 
 ---
 
-## Files of interest
-- `dataset/PlayStoreData.csv` — raw Play Store data
-- `dataset/UserReview.csv` — raw user reviews
-- `Images/` — visualization assets used in this README and the dashboard
-- `pre_playstore.ipynb`, `pre_userreview.ipynb`, `pre_merge.ipynb` — notebooks with preprocessing and merge logic
-- `processed/PlayStoreData_CLEAN.csv`, `processed/UserReview_Aggregated.csv`, `processed/Merged_PlayStore_Reviews.csv` — outputs from preprocessing and merge
-
-## How to reproduce
-1. Open and run the notebooks in order: `pre_playstore.ipynb`, `pre_userreview.ipynb`, then `pre_merge.ipynb`.
-2. The processed files will be written to the `processed/` directory. Visualizations are found in the `Images/` folder and the Power BI dashboard (not included here) consumes these processed outputs.
-
-## Assumptions & next steps
-- The preprocessing steps above are inferred from executed notebooks and variable names present in the workspace. If you prefer, I can extract the exact code cells and include a full reproducible script in `scripts/`.
-- If you want the images renamed or reordered, tell me which chart corresponds to which file and I'll update the README.
-
----
-
-Summary: README created and images embedded from `Images/`. If you want the exact notebook code included or the README updated to reference different images, I can update it next.
